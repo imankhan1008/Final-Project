@@ -1,0 +1,61 @@
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="container mt-7">
+  <h2>Customer Information</h2>
+  <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input id="firstName" formControlName="firstName" class="form-control" type="text" required />
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" formControlName="lastName" class="form-control" type="text" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input id="email" formControlName="email" class="form-control" type="email" required />
+    </div>
+
+    <div class="form-group">
+      <label for="address">Contact Address:</label>
+      <input id="address" formControlName="address" class="form-control" type="text" required />
+    </div>
+
+    <div class="form-group">
+      <label for="apartment">Apartment:</label>
+      <input id="apartment" formControlName="apartment" class="form-control" type="text" />
+    </div>
+
+    <div class="form-group">
+      <label for="postalCode">Postal Code:</label>
+      <input id="postalCode" formControlName="postalCode" class="form-control" type="text" required />
+    </div>
+
+    <div class="form-group">
+      <label for="paymentMethod">Payment Method:</label>
+      <select id="paymentMethod" formControlName="paymentMethod" class="form-control" required>
+        <option value="Cash on Delivery">Cash on Delivery</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="customerForm.invalid ">Submit</button>
+  </form>
+</div>
+
+<div *ngIf="orderSummary" class="order-summary mt-4">
+  <h3>Order Summary</h3>
+  <p><strong>First Name:</strong> {{ orderSummary.firstName }}</p>
+  <p><strong>Last Name:</strong> {{ orderSummary.lastName }}</p>
+  <p><strong>Email:</strong> {{ orderSummary.email }}</p>
+  <p><strong>Contact Address:</strong> {{ orderSummary.address }}</p>
+  <p><strong>Apartment:</strong> {{ orderSummary.apartment || 'N/A' }}</p>
+  <p><strong>Postal Code:</strong> {{ orderSummary.postalCode }}</p>
+  <p><strong>Payment Method:</strong> {{ orderSummary.paymentMethod }}</p>
+</div>

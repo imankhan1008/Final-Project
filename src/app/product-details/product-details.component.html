@@ -1,0 +1,16 @@
+<div *ngIf="orderSummary">
+    <p><strong>First Name:</strong> {{ orderSummary.firstName }}</p>
+    <p><strong>Last Name:</strong> {{ orderSummary.lastName }}</p>
+    <p><strong>Email:</strong> {{ orderSummary.email }}</p>
+    <p><strong>Contact Address:</strong> {{ orderSummary.address }}</p>
+    <p><strong>Apartment:</strong> {{ orderSummary.apartment || 'N/A' }}</p>
+    <p><strong>Postal Code:</strong> {{ orderSummary.postalCode }}</p>
+    <p><strong>Payment Method:</strong> {{ orderSummary.paymentMethod }}</p>
+  
+    <!-- Avoid unnecessary bindings that could cause reinitialization -->
+    <app-product-details
+      [customerDetails]="orderSummary.customerDetails"
+      [products]="orderSummary.products">
+    </app-product-details>
+  </div>
+  

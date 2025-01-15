@@ -1,0 +1,19 @@
+[
+    { "id": 1, "name": "ORGANIC REGENERATING FACE WASH - Daily Cleansing Treatment", "price": 2500, "image": "https://skindeepintl.com/cdn/shop/files/OrganicRegeneratingCleanser_e3abeb6f-aff4-4351-924b-2046312441be.jpg?v=1736344434&width=713", "description": "cleanser" },
+   
+    { "id": 3, "name": "DREAM GLAZE - Peptide Milk Toner", "price": 50, "image": "https://skindeepintl.com/cdn/shop/files/Lemon_Deodorant_1_89157e77-ff2c-4a98-a10b-05ed60650125.jpg?v=1736577015&width=713", "description": "Deodorant" },
+   
+    { "id": 4, "name": "CLEAN SWEEP - 2% BHA Pore-Minimizing Toner (w/ purifying Charcoal)", "price": 20, "image": "https://skindeepintl.com/cdn/shop/files/Clean_Sweep_ebc30e4d-f60e-4589-8703-2bdb57d7bd63.jpg?v=1736341373&width=713", "description": "clean sweep" },
+    { "id": 2, "name": "DREAM GLAZE - Peptide Milk Toner", "price": 20, "image": "https://skindeepintl.com/cdn/shop/files/Dream_Glaze_Peptide_Milk_Toner_5e7a4eab-23a0-4956-b647-25091f2be1c4.jpg?v=1736342422&width=713", "description": "A smooth and long-lasting gloss" },
+      
+    { "id": 7, "name": "BLUE TANSY - Youth Preserve Night Cream with Retinol & Blue Tansy Oil", "price": 20, "image": "https://skindeepintl.com/cdn/shop/files/Blue_Tansy_f55eaab1-3d63-4e69-ac2d-5c7573d79954.jpg?v=1736342401&width=713", "description": "Shade-01" },
+    { "id": 8, "name": "CLEAN SWEEP - 2% BHA Pore-Minimizing Toner (w/ purifying Charcoal)", "price": 20, "image": "https://skindeepintl.com/cdn/shop/files/Blue_Tansy_f55eaab1-3d63-4e69-ac2d-5c7573d79954.jpg?v=1736342401&width=713", "description": "Shade-02" },
+    { "id": 9, "name": "CLEAN SWEEP - 2% BHA Pore-Minimizing Toner (w/ purifying Charcoal)", "price": 20, "image": "https://skindeepintl.com/cdn/shop/files/Blue_Tansy_f55eaab1-3d63-4e69-ac2d-5c7573d79954.jpg?v=1736342401&width=713", "description": "Shade-03" },
+    { "id": 10, "name": "CLEAN SWEEP - 2% BHA Pore-Minimizing Toner (w/ purifying Charcoal)", "price": 20, "image": "https://skindeepintl.com/cdn/shop/files/Matte_Superstick.jpg?v=1736341284&width=713", "description": "Shade-04" },
+    { "id": 5, "name": "BLUE TANSY - Youth Preserve Night Cream with Retinol & Blue Tansy Oil", "price": 30, "image": "https://skindeepintl.com/cdn/shop/files/Bakuchiol_Resurfacing_Night_Serum_98c5c94b-695e-4d09-9bb4-c7a8d15d05de.jpg?v=1736341349&width=713", "description": " Shade G-01" },
+    { "id": 6, "name": "MATTE SUPERSTICK - SPF 50 PA+++", "price": 30, "image": "https://skindeepintl.com/cdn/shop/files/Matte_Superstick.jpg?v=1736341284&width=713", "description": " Shade G-02 " },                
+    
+    { "id":  11, "name": "CLEAN SWEEP - 2% BHA Pore-Minimizing Toner (w/ purifying Charcoal)", "price": 15, "image": "https://skindeepintl.com/cdn/shop/files/Bakuchiol_Resurfacing_Night_Serum_98c5c94b-695e-4d09-9bb4-c7a8d15d05de.jpg?v=1736341349&width=713", "description": "Enhances your lashes with volume and length." },
+    { "id":  12, "name": "BAKUCHIOL RESURFACING NIGHT SERUM - with 10% Lactic Acid", "price": 15, "image": "https://skindeepintl.com/cdn/shop/files/Blue_Tansy_f55eaab1-3d63-4e69-ac2d-5c7573d79954.jpg?v=1736342401&width=713", "description": "Rosey Cheeks" }
+  ]
+  

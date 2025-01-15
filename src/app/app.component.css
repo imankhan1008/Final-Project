@@ -1,0 +1,36 @@
+.navbar {
+    background: linear-gradient( #373f27,#a79f95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #ffe6e6;
+}
+.navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 2px;
+}
+.form-control {
+    border-radius: 20px;
+}
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+}
+.btn-outline-success:hover {
+    background-color: #fff;
+    color: #ff9a9e;
+}
